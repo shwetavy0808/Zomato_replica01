@@ -1,6 +1,9 @@
 import React from 'react';
 import rectDom from "react-dom";
 import '../styles/Filter.css';
+import querystring from  "query-string";
+import axios from "axios";
+import  {withRouter} from 'react-router-dom';
 
 
 class Filter extends React.Component{
